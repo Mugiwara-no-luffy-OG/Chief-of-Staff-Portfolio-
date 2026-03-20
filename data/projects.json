@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Employee Training Tracker",
+    "category": "HR & Talent",
+    "description": "Reduced onboarding time by 40% by automating compliance tracking and training assignments.",
+    "tags": ["HR", "Automation", "Operations"],
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": 2,
+    "title": "Departmental P&L & Financial Modeling",
+    "category": "Finance",
+    "description": "Created dynamic P&L templates for department heads to forecast burn rate and optimize OpEx.",
+    "tags": ["Finance", "Strategy", "Excel"],
+    "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": 3,
+    "title": "N8N Workflow Automation",
+    "category": "Systems",
+    "description": "Designed complex n8n workflows to bridge gaps between CRM, Slack, and Email, eliminating manual data entry.",
+    "tags": ["Automation", "Tech Stack", "Efficiency"],
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": 4,
+    "title": "Strategic Yearly Roadmap",
+    "category": "Strategy",
+    "description": "Developed the master roadmap aligning 5 departments to the CEO's 3-year vision.",
+    "tags": ["Strategy", "Planning", "Leadership"],
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": 5,
+    "title": "Grant Eligibility Framework",
+    "category": "Finance",
+    "description": "One-page summary framework that determined eligibility for $2M in government grants.",
+    "tags": ["Finance", "Compliance", "Research"],
+    "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": 6,
+    "title": "Product Management Lifecycle",
+    "category": "Product",
+    "description": "Oversaw the product lifecycle from ideation to launch, coordinating between engineering and sales.",
+    "tags": ["Product", "Cross-functional", "Agile"],
+    "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=800"
+  }
+]
