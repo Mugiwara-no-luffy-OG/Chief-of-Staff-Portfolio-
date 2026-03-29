@@ -99,19 +99,19 @@ export default function MeetriqPage() {
             </p>
             <ul className="space-y-2 text-gray-700 leading-relaxed">
               <li className="flex items-start gap-2">
-                <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0" />
+                <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
                 <span>Makes the <strong>unit economics of time</strong> visible in real-time</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0" />
+                <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
                 <span>Forces <strong>outcome accountability</strong> through a structured decision gate</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0" />
+                <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
                 <span>Provides a <strong>standardized efficiency metric</strong> (Efficiency per $100) for cross-meeting comparison</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0" />
+                <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
                 <span>Demonstrates how behavioral design + operational finance principles can be applied to knowledge-work optimization</span>
               </li>
             </ul>
@@ -143,23 +143,23 @@ export default function MeetriqPage() {
             <h3 className="font-semibold text-foreground mb-3">Approach</h3>
             <ul className="space-y-3 text-gray-700 leading-relaxed">
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0" />
+                <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
                 <span><strong>Data Foundation:</strong> Hardcoded salary bands derived from U.S. Bureau of Labor Statistics OEWS (May 2024), with transparent sourcing for credibility</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0" />
+                <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
                 <span><strong>Core Logic:</strong> Live cost accumulator (hourly burn × duration) + normalized efficiency metric (Impact Points ÷ (Cost ÷ $100))</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0" />
+                <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
                 <span><strong>Behavioral Design:</strong> Decision Gate forces outcome logging before "success" is granted; confetti + color zones reinforce high-efficiency patterns</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0" />
+                <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
                 <span><strong>UX Polish:</strong> Executive-grade typography, dark mode support, mobile-responsive layout, plain-English metric explanations</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0" />
+                <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
                 <span><strong>Privacy-First:</strong> No backend, no user accounts, mailto: email integration (zero data collection)</span>
               </li>
             </ul>
@@ -167,7 +167,7 @@ export default function MeetriqPage() {
         </div>
 
         {/* Leadership Impact */}
-        <div className="mt-12 bg-gradient-to-br from-primary/5 to-secondary/5 rounded-2xl border border-primary/20 p-8">
+        <div className="mt-12 bg-linear-to-br from-primary/5 to-secondary/5 rounded-2xl border border-primary/20 p-8">
           <h2 className="text-2xl font-serif font-bold text-primary mb-4">
             Leadership / Chief of Staff Impact
           </h2>
@@ -176,19 +176,19 @@ export default function MeetriqPage() {
           </p>
           <ul className="space-y-3 text-gray-700 leading-relaxed mb-4">
             <li className="flex items-start gap-3">
-              <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0" />
+              <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
               <span>Translate abstract strategy ("optimize meetings") into a tangible, shareable instrument</span>
             </li>
             <li className="flex items-start gap-3">
-              <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0" />
+              <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
               <span>Balance speed (24-hour MVP) with credibility (transparent data sourcing, plain-English explanations)</span>
             </li>
             <li className="flex items-start gap-3">
-              <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0" />
+              <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
               <span>Design for behavior change, not just data display</span>
             </li>
             <li className="flex items-start gap-3">
-              <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0" />
+              <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
               <span>Create force multipliers that scale executive attention without adding headcount</span>
             </li>
           </ul>
