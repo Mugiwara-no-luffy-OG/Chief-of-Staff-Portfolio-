@@ -19,10 +19,10 @@ export default function About() {
             I operate as an extension of the CEO — translating ambiguity into structured execution, transforming manual workflows into scalable systems, and ensuring strategic priorities move with precision and velocity.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            My work spans financial modeling, automation architecture, HR systems design, analytics infrastructure, and strategic planning across multi-department organizations.
+            Driven by high curiosity, I learn things on the fly, translating insight into action across diverse functions—from FP&A, P&L management to product management and QA testing.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed mb-8">
-            I specialize in identifying operational blind spots, designing repeatable processes, and building the internal infrastructure required for sustainable scale.
+            I work with discretion and fast execution, driving initiatives end-to-end to bring structure and discipline to complex environments with a low ego and a focus on measurable impact.
           </p>
         </div>
 

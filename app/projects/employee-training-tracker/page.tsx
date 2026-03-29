@@ -127,15 +127,15 @@ export default function EmployeeTrainingTracker() {
             <h3 className="font-semibold text-foreground mb-3">Measured Results</h3>
             <ul className="space-y-2">
               <li className="flex items-start gap-3 text-gray-700">
-                <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0"></span>
                 Eliminated 8-year compliance gap within 24 hours
               </li>
               <li className="flex items-start gap-3 text-gray-700">
-                <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0"></span>
                 Reduced tracking time from 2 hours to &lt;2 minutes per employee (98% time savings)
               </li>
               <li className="flex items-start gap-3 text-gray-700">
-                <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0"></span>
                 System scaled without additional resources (no budget, no additional headcount)
               </li>
             </ul>
@@ -160,7 +160,7 @@ export default function EmployeeTrainingTracker() {
         </div>
 
         {/* Leadership Impact */}
-        <div className="mt-12 bg-gradient-to-br from-primary/5 to-secondary/5 rounded-2xl border border-primary/20 p-8">
+        <div className="mt-12 bg-linear-to-br from-primary/5 to-secondary/5 rounded-2xl border border-primary/20 p-8">
           <h2 className="text-2xl font-serif font-bold text-primary mb-4">
             Leadership / Chief of Staff Impact
           </h2>
