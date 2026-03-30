@@ -79,7 +79,7 @@ export default function StrategicPlanning() {
               <span className="font-semibold text-foreground">What business problem existed?</span>
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Leadership team lacked centralized strategic infrastructure: board materials assembled ad-hoc, investor data room disorganized, annual roadmap siloed by department, and career progression frameworks undefined. This created inefficiencies in executive decision-making and limited scalability.
+              Leadership team lacked centralized strategic infrastructure: board materials assembled ad-hoc, investor data room disorganized, annual roadmap siloed by department, and career progression frameworks did not existS. This created inefficiencies in executive decision-making and limited scalability.
             </p>
           </div>
 
@@ -108,14 +108,12 @@ export default function StrategicPlanning() {
             <div className="flex flex-wrap gap-2">
               <span className="px-3 py-1 bg-background border border-border rounded-full text-sm text-gray-700">Notion</span>
               <span className="px-3 py-1 bg-background border border-border rounded-full text-sm text-gray-700">Google Workspace</span>
-              <span className="px-3 py-1 bg-background border border-border rounded-full text-sm text-gray-700">Figma</span>
-              <span className="px-3 py-1 bg-background border border-border rounded-full text-sm text-gray-700">Airtable</span>
             </div>
           </div>
           <div>
             <h3 className="font-semibold text-foreground mb-3">Approach</h3>
             <p className="text-gray-700 leading-relaxed">
-              Modular template system with standardized workflows for board prep, investor updates, roadmap alignment, and career planning. Zero-budget implementation, fully documented for replication.
+              Modular template system with standardized workflows for board preparation, investor updates, roadmap alignment, and career planning. Zero-budget implementation, fully documented for replication.
             </p>
           </div>
         </div>
@@ -129,21 +127,21 @@ export default function StrategicPlanning() {
             Strategic Yearly Roadmap
           </h3>
           <p className="text-gray-700 leading-relaxed">
-            Developed the master roadmap aligning 5 departments to the CEO's 3-year vision.
+            Developed the master roadmap aligning the company's 5 departments with quarterly milestones, ensuring cross-functional dependencies were mapped and executive priorities were clearly communicated to meeet the company's goal of being profitable by 2027. 
           </p>
         </div>
 
         {/* Outcome */}
         <div className="mt-12 bg-white rounded-2xl border border-border p-8">
           <h2 className="text-2xl font-serif font-bold text-primary mb-6">
-            Outcome
+            Strategic Initiatives & Impact
           </h2>
           <div className="mb-6">
             <h3 className="font-semibold text-foreground mb-3">Measured Results</h3>
             <ul className="space-y-2">
               <li className="flex items-start gap-3 text-gray-700">
                 <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0"></span>
-                Reduced board meeting prep time from 3 weeks to 9 days
+                Reduced board meeting preparation time from 3 weeks to 9 days
               </li>
               <li className="flex items-start gap-3 text-gray-700">
                 <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0"></span>
@@ -151,7 +149,7 @@ export default function StrategicPlanning() {
               </li>
               <li className="flex items-start gap-3 text-gray-700">
                 <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0"></span>
-                Marketing department roadmap aligned across 4 teams with clear Q1-Q4 milestones
+                Aligned all departments' roadmaps with clear Q1-Q4 milestones
               </li>
               <li className="flex items-start gap-3 text-gray-700">
                 <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0"></span>
@@ -184,7 +182,7 @@ export default function StrategicPlanning() {
             Leadership / Chief of Staff Impact
           </h2>
           <p className="text-gray-700 leading-relaxed text-lg">
-            Created executive-ready infrastructure that scaled with 70+ person growth target. Enabled CEO to focus on vision vs. operations. Templates replicated across departments. Positioned organization for Series A readiness. Freed leadership team from operational friction to drive strategic initiatives.
+            Created executive-ready infrastructure that scaled with 70+ person growth target. Enabled CEO to focus on vision vs. operations. Templates replicated across departments. Positioned organization for new round of funding. 
           </p>
         </div>
 
