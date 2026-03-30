@@ -172,7 +172,7 @@ export default function StrategicPlanning() {
             Chief of Staff Impact
           </h2>
           <p className="text-gray-700 leading-relaxed text-lg">
-            Created executive-ready infrastructure that scaled to support 70+ person growth targets. Freed the CEO to focus on vision and external priorities rather than operational coordination. All templates were documented and replicated across departments, positioning the organization for fundraising.
+            Created executive-ready infrastructure that scaled to support 70+ person growth targets. Templates replicated across departments. Positioned organization for new round of funding.
           </p>
         </div>
       </div>

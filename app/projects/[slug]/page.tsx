@@ -38,7 +38,7 @@ export default function Projects() {
           </h1>
           <p className="text-gray-600 max-w-3xl text-lg">
             A selection of operational frameworks, automation systems, and financial models architected for scale.
-
+            <br />
             Real projects, real impact. Fictitious data to ensure organizational privacy.
           </p>
         </div>
@@ -49,7 +49,7 @@ export default function Projects() {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => (
-              <Link href="/projects/employee-training-tracker" key={project.slug}>
+              <Link href={`/projects/${project.slug}`} key={project.slug}>
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
