@@ -25,7 +25,7 @@ export default function StrategicPlanning() {
             Strategy & Operations
           </span>
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-6">
-            Strategic Planning Framework
+            Strategic Initiatives & Impact
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed">
             A scalable strategic operations system that streamlined board communications, investor readiness, cross-functional roadmaps, and career progression frameworks.
@@ -41,6 +41,21 @@ export default function StrategicPlanning() {
             alt="Strategic Planning Framework" 
             className="w-full h-96 object-cover"
           />
+        </div>
+      </div>
+
+      {/* Context - MOVED BEFORE VIDEO */}
+      <div className="max-w-7xl mx-auto px-6 pb-16">
+        <div className="bg-white rounded-2xl border border-border p-8">
+          <h2 className="text-2xl font-serif font-bold text-primary mb-4">
+            Context
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            <span className="font-semibold text-foreground">What business problem existed?</span>
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            The leadership team lacked centralized strategic infrastructure: board materials were assembled ad-hoc, the investor data room was disorganized, annual roadmaps were siloed by department, and career progression frameworks did not exist. This created inefficiencies in executive decision-making and limited organizational scalability.
+          </p>
         </div>
       </div>
 
@@ -66,40 +81,24 @@ export default function StrategicPlanning() {
         </div>
       </div>
 
-      {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-6 pb-20">
-        <div className="grid md:grid-cols-2 gap-12">
-          
-          {/* Context */}
-          <div className="bg-white rounded-2xl border border-border p-8">
-            <h2 className="text-2xl font-serif font-bold text-primary mb-4">
-              Context
-            </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              <span className="font-semibold text-foreground">What business problem existed?</span>
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              Leadership team lacked centralized strategic infrastructure: board materials assembled ad-hoc, investor data room disorganized, annual roadmap siloed by department, and career progression frameworks did not existS. This created inefficiencies in executive decision-making and limited scalability.
-            </p>
-          </div>
-
-          {/* Strategic Objective */}
-          <div className="bg-white rounded-2xl border border-border p-8">
-            <h2 className="text-2xl font-serif font-bold text-primary mb-4">
-              Strategic Objective
-            </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              <span className="font-semibold text-foreground">What executive goal did it support?</span>
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              Build a scalable strategic operations framework to streamline board/investor communications, align cross-functional roadmaps, and enable talent retention through clear career pathways—supporting sustainable growth without adding headcount.
-            </p>
-          </div>
-
+      {/* Strategic Objective - REWRITTEN */}
+      <div className="max-w-7xl mx-auto px-6 pb-16">
+        <div className="bg-white rounded-2xl border border-border p-8">
+          <h2 className="text-2xl font-serif font-bold text-primary mb-4">
+            Strategic Objective
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            <span className="font-semibold text-foreground">What executive goal did it support?</span>
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            The video above shows a sample of the master roadmap aligning the company's five departments to the goal of achieving profitability by 2027, as presented during the board meeting for the Series B funding round. The broader objective was to build a scalable strategic operations framework that would streamline board and investor communications, align cross-functional roadmaps, and enable talent retention through clear career progression pathways—all while supporting sustainable growth without adding headcount.
+          </p>
         </div>
+      </div>
 
-        {/* Execution */}
-        <div className="mt-12 bg-white rounded-2xl border border-border p-8">
+      {/* Execution - TOOLS CLEANED UP */}
+      <div className="max-w-7xl mx-auto px-6 pb-16">
+        <div className="bg-white rounded-2xl border border-border p-8">
           <h2 className="text-2xl font-serif font-bold text-primary mb-6">
             Execution
           </h2>
@@ -113,31 +112,20 @@ export default function StrategicPlanning() {
           <div>
             <h3 className="font-semibold text-foreground mb-3">Approach</h3>
             <p className="text-gray-700 leading-relaxed">
-              Modular template system with standardized workflows for board preparation, investor updates, roadmap alignment, and career planning. Zero-budget implementation, fully documented for replication.
+              Designed a modular template system with standardized workflows for board preparation, investor updates, roadmap alignment, and career planning. Implemented zero-budget solution with comprehensive documentation to ensure seamless replication across teams.
             </p>
           </div>
         </div>
+      </div>
 
-        {/* Strategy Highlight */}
-        <div className="mt-12 bg-white rounded-2xl border border-border p-8">
-          <h2 className="text-2xl font-serif font-bold text-primary mb-4">
-            Strategy
-          </h2>
-          <h3 className="text-xl font-semibold text-foreground mb-3">
-            Strategic Yearly Roadmap
-          </h3>
-          <p className="text-gray-700 leading-relaxed">
-            Developed the master roadmap aligning the company's 5 departments with quarterly milestones, ensuring cross-functional dependencies were mapped and executive priorities were clearly communicated to meeet the company's goal of being profitable by 2027. 
-          </p>
-        </div>
-
-        {/* Outcome */}
-        <div className="mt-12 bg-white rounded-2xl border border-border p-8">
+      {/* Outcome - RENAMED FOR CLARITY */}
+      <div className="max-w-7xl mx-auto px-6 pb-16">
+        <div className="bg-white rounded-2xl border border-border p-8">
           <h2 className="text-2xl font-serif font-bold text-primary mb-6">
-            Strategic Initiatives & Impact
+            Measured Impact
           </h2>
           <div className="mb-6">
-            <h3 className="font-semibold text-foreground mb-3">Measured Results</h3>
+            <h3 className="font-semibold text-foreground mb-3">Key Results</h3>
             <ul className="space-y-2">
               <li className="flex items-start gap-3 text-gray-700">
                 <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0"></span>
@@ -145,20 +133,20 @@ export default function StrategicPlanning() {
               </li>
               <li className="flex items-start gap-3 text-gray-700">
                 <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0"></span>
-                Established structured 4-week investor data room preparation cycle with audit-ready documentation
+                Established a structured 4-week investor data room preparation cycle with audit-ready documentation
               </li>
               <li className="flex items-start gap-3 text-gray-700">
                 <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0"></span>
-                Aligned all departments' roadmaps with clear Q1-Q4 milestones
+                Aligned all five departments' roadmaps with clear quarterly milestones
               </li>
               <li className="flex items-start gap-3 text-gray-700">
                 <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0"></span>
-                Career plan framework adopted by HR for 70+ employees with clear progression tracks
+                Career progression framework adopted by HR for 70+ employees with clear progression tracks, strengthening the organization's culture and retention
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="font-semibold text-foreground mb-3">Key Metrics</h3>
+            <h3 className="font-semibold text-foreground mb-3">Quantified Outcomes</h3>
             <div className="flex flex-wrap gap-3">
               <div className="px-4 py-2 bg-primary/10 border border-primary/20 rounded-lg">
                 <span className="text-primary font-bold">57% faster board prep</span>
@@ -167,27 +155,31 @@ export default function StrategicPlanning() {
                 <span className="text-primary font-bold">4-week data room cycle</span>
               </div>
               <div className="px-4 py-2 bg-primary/10 border border-primary/20 rounded-lg">
-                <span className="text-primary font-bold">$0 cost</span>
+                <span className="text-primary font-bold">$0 implementation cost</span>
               </div>
               <div className="px-4 py-2 bg-primary/10 border border-primary/20 rounded-lg">
-                <span className="text-primary font-bold">4 departments aligned</span>
+                <span className="text-primary font-bold">5 departments aligned</span>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        {/* Leadership Impact */}
-        <div className="mt-12 bg-gradient-to-br from-primary/5 to-secondary/5 rounded-2xl border border-primary/20 p-8">
+      {/* Leadership Impact */}
+      <div className="max-w-7xl mx-auto px-6 pb-16">
+        <div className="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-2xl border border-primary/20 p-8">
           <h2 className="text-2xl font-serif font-bold text-primary mb-4">
-            Leadership / Chief of Staff Impact
+            Chief of Staff Impact
           </h2>
           <p className="text-gray-700 leading-relaxed text-lg">
-            Created executive-ready infrastructure that scaled with 70+ person growth target. Enabled CEO to focus on vision vs. operations. Templates replicated across departments. Positioned organization for new round of funding. 
+            Created executive-ready infrastructure that scaled to support 70+ person growth targets. Freed the CEO to focus on vision and external priorities rather than operational coordination. All templates were documented and replicated across departments, positioning the organization for fundraising.
           </p>
         </div>
+      </div>
 
-        {/* CTA */}
-        <div className="mt-12 flex flex-col sm:flex-row gap-4">
+      {/* CTA */}
+      <div className="max-w-7xl mx-auto px-6 pb-20">
+        <div className="flex flex-col sm:flex-row gap-4">
           <Link 
             href="/contact" 
             className="inline-flex items-center justify-center gap-2 bg-primary text-white px-8 py-4 rounded-full font-medium hover:bg-primary/90 transition-all"
@@ -201,7 +193,6 @@ export default function StrategicPlanning() {
             View All Projects
           </Link>
         </div>
-
       </div>
     </main>
   );
