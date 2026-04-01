@@ -37,7 +37,7 @@ export default function NationalGrantFundingPage() {
       <div className="max-w-7xl mx-auto px-6 pb-16">
         <div className="rounded-2xl overflow-hidden shadow-lg">
           <img 
-            src="https://images.unsplash.com/photo-1560439140-690e0b3d5b4f?auto=format&fit=crop&q=80&w=800"
+            src="/images/national-grant-funding.jpg"
             alt="National Grant Funding - Strategic financial framework and automated reporting system" 
             className="w-full h-96 object-cover"
           />

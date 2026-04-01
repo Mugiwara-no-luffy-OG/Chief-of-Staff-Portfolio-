@@ -5,18 +5,17 @@ export const projects = [
     name: "Automated Employee Training Compliance Tracker",
     category: "HR & Talent",
     shortDescription: "Reduced onboarding time by 40% by automating compliance tracking and training assignments.",
-    imageUrl: "https://images.unsplash.com/photo-1551650975-87de43995034?auto=format&fit=crop&q=80&w=800",
+    imageUrl: "/images/employee-training-tracker.jpg",
     tags: ["HR", "Automation", "Operations", "Compliance"],
     detailedDescription: "Automated tracking system for employee compliance training that reduced manual oversight by 65% and accelerated onboarding cycles."
   },
   {
-    slug: "departmental-pl-financial-modeling",
-    name: "Departmental P&L & Financial Modeling",
-    category: "Finance",
-    shortDescription: "Created dynamic P&L templates for department heads to forecast burn rate and optimize OpEx.",
-    imageUrl: "https://images.unsplash.com/photo-1600864857031-4633a5d7c5aa?auto=format&fit=crop&q=80&w=800",
-    tags: ["Finance", "Strategy", "Excel", "Governance"],
-    detailedDescription: "Scalable financial modeling framework enabling department heads to self-serve P&L forecasting with real-time burn rate visibility."
+  slug: "sales-department-performance-tracker",
+  name: "Sales Department Performance Tracker",
+  category: "Sales & Revenue",
+  shortDescription: "Built real-time sales performance dashboard tracking KPIs, pipeline velocity, and revenue forecasting.",
+  imageUrl: "/images/sales-department-performance-tracker.jpg",
+  tags: ["Sales", "Analytics", "Dashboard", "Revenue"],
   },
   {
     slug: "strategic-initiatives-impact",
@@ -32,7 +31,7 @@ export const projects = [
     name: "National Grant Funding",
     category: "Finance",
     shortDescription: "One-page summary framework that determined eligibility for $250k government grant. Automated grant reports.",
-    imageUrl: "https://images.unsplash.com/photo-1560439140-690e0b3d5b4f?auto=format&fit=crop&q=80&w=800",
+    imageUrl: "/images/national-grant-funding.jpg",
     tags: ["Finance", "Compliance", "Research", "Funding"],
     detailedDescription: "Streamlined grant eligibility assessment and reporting system that secured $250k in non-dilutive funding with zero external consultants."
   },

@@ -39,7 +39,7 @@ export default function Projects() {
           <p className="text-gray-600 max-w-3xl text-lg">
             A selection of operational frameworks, automation systems, and financial models architected for scale.
             <br />
-            Real projects, real impact. Fictitious data to ensure organizational privacy.
+            Real projects, real impact. Fictitious data to ensure privacy.
           </p>
         </div>
 

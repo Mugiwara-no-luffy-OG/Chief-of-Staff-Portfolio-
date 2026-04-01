@@ -37,7 +37,7 @@ export default function EmployeeTrainingTracker() {
       <div className="max-w-7xl mx-auto px-6 pb-16">
         <div className="rounded-2xl overflow-hidden shadow-lg">
           <img 
-            src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
+            src="/images/employee-training-tracker.jpg"
             alt="Employee Training Tracker" 
             className="w-full h-96 object-cover"
           />

@@ -1,48 +1,34 @@
-// data/projects.ts
-export const projects = [
-  {
-    slug: "employee-training-tracker",
-    name: "Automated Employee Training Compliance Tracker",
-    category: "HR & Talent",
-    shortDescription: "Reduced onboarding time by 40% by automating compliance tracking and training assignments.",
-    imageUrl: "https://images.unsplash.com/photo-1551650975-87de43995034?auto=format&fit=crop&q=80&w=800",
-    tags: ["HR", "Automation", "Operations", "Compliance"],
-    detailedDescription: "Full case study content for employee training tracker..."
-  },
-  {
-    slug: "departmental-pl-financial-modeling",
-    name: "Departmental P&L & Financial Modeling",
-    category: "Finance",
-    shortDescription: "Created dynamic P&L templates for department heads to forecast burn rate and optimize OpEx.",
-    imageUrl: "https://images.unsplash.com/photo-1600864857031-4633a5d7c5aa?auto=format&fit=crop&q=80&w=800",
-    tags: ["Finance", "Strategy", "Excel", "Governance"],
-    detailedDescription: "Full case study content for P&L modeling..."
-  },
-  {
-    slug: "strategic-initiatives-impact",
-    name: "Strategic Initiatives & Impact",
-    category: "Strategy",
-    shortDescription: "- Board meeting preparation. Investor Material (Data Room). Yearly Roadmap. Career Plan",
-    imageUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800",
-    tags: ["Strategy", "Planning", "Leadership", "Alignment"],
-    detailedDescription: "Full case study content for strategic initiatives..."
-  },
-  {
-    slug: "national-grant-funding",
-    name: "National Grant Funding",
-    category: "Finance",
-    shortDescription: "One-page summary framework that determined eligibility for $250k government grant. Automated grant reports.",
-    imageUrl: "https://images.unsplash.com/photo-1560439140-690e0b3d5b4f?auto=format&fit=crop&q=80&w=800",
-    tags: ["Finance", "Compliance", "Research", "Funding"],
-    detailedDescription: "Full case study content for grant funding..."
-  },
-  {
-    slug: "product-management-lifecycle",
-    name: "Product Management Lifecycle",
-    category: "Product",
-    shortDescription: "Build product from scratch",
-    imageUrl: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&q=80&w=800",
-    tags: ["Product", "Cross-functional", "Agile", "Launch"],
-    detailedDescription: "Full case study content for product lifecycle..."
+// app/api/projects/route.ts
+import { NextRequest, NextResponse } from 'next/server';
+import { projects } from '@/data/projects';
+
+export async function GET(request: NextRequest): Promise<NextResponse> {
+  try {
+    // Validate that projects data exists and is an array
+    if (!projects || !Array.isArray(projects)) {
+      console.error('❌ Projects data is invalid:', projects);
+      return NextResponse.json(
+        { error: 'Projects data is not available' },
+        { status: 500 }
+      );
+    }
+
+    // Return projects as JSON
+    return NextResponse.json(projects, {
+      status: 200,
+      headers: {
+        'Content-Type': 'application/json',
+        'Cache-Control': 'no-store, max-age=0',
+      },
+    });
+  } catch (error) {
+    console.error('❌ API Route Error - Failed to fetch projects:', error);
+    return NextResponse.json(
+      { 
+        error: 'Failed to fetch projects', 
+        details: error instanceof Error ? error.message : 'Unknown error'
+      },
+      { status: 500 }
+    );
   }
-];
+}
