@@ -100,15 +100,15 @@ export default function MeetriqPage() {
             <ul className="space-y-2 text-gray-700 leading-relaxed">
               <li className="flex items-start gap-2">
                 <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
-                <span>Makes the <strong>unit economics of time</strong> visible in real-time</span>
+                <span>Makes the unit economics of time visible in real-time</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
-                <span>Forces <strong>outcome accountability</strong> through a structured decision gate</span>
+                <span>Forces outcome accountability through a structured decision gate</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
-                <span>Provides a <strong>standardized efficiency metric</strong> (Efficiency per $100) for cross-meeting comparison</span>
+                <span>Provides a standardized efficiency metric (Efficiency per $100) for cross-meeting comparison</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="w-2 h-2 bg-secondary rounded-full mt-2 shrink-0" />
@@ -116,7 +116,7 @@ export default function MeetriqPage() {
               </li>
             </ul>
             <p className="text-gray-700 leading-relaxed mt-4 italic">
-              All within a 24-hour build window using free, public tools.
+              The video shows version 2.
             </p>
           </div>
 
@@ -172,7 +172,7 @@ export default function MeetriqPage() {
             Leadership / Chief of Staff Impact
           </h2>
           <p className="text-gray-700 leading-relaxed text-lg mb-4">
-            Built as a <strong>proof-of-concept for operational rigor</strong>, Meetriq demonstrates how a senior CoS can:
+            Built as a proof-of-concept for operational rigor, Meetriq demonstrates how a senior CoS can:
           </p>
           <ul className="space-y-3 text-gray-700 leading-relaxed mb-4">
             <li className="flex items-start gap-3">
@@ -192,9 +192,6 @@ export default function MeetriqPage() {
               <span>Create force multipliers that scale executive attention without adding headcount</span>
             </li>
           </ul>
-          <p className="text-gray-700 leading-relaxed text-lg italic">
-            This project reflects the same operational discipline, user-centered design thinking, and focus on making invisible value visible that I bring to all strategic initiatives.
-          </p>
         </div>
 
       </div>
